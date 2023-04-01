@@ -1,0 +1,175 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.app {
+    font-family: 'Sono', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 14px; */
+}
+
+.contact-information {
+    text-align: end;
+    padding-right: 15px;
+    /* font-size: 14px; */
+}
+
+.company-name {
+    /* padding-right: 15px; */
+    font-size: 18px;
+}
+
+.logo {
+    width: 100px;
+    padding: 15px;
+}
+
+.contact-title {
+    font-size: 12px;
+}
+
+.contact-phone {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.button {
+    display: inline;
+    width: 170px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(23, 44, 100);
+    padding: 5px;
+}
+
+.link-yelp-button {
+    width: 240px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: start;
+    background-image: url(/assets/logo-yelp.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 130px;
+    border: solid 2px red;
+    border-radius: 5px;
+}
+
+.link-yelp {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    color:black;
+}
+
+.main-section {
+    padding: 15px;
+    background-color: #25851c;
+    color: aliceblue;
+}
+
+.main-section-company_name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.callback {
+    background-color: #053e50;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+
+.brands-list {
+    padding: 15px;
+}
+
+.brands-lits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-between;
+}
+
+.contact-information-footer {
+    background-color: #1c2785;
+    padding: 15px;
+    color: aliceblue;
+}
+
+@media (min-width: 1190px) {
+    .app {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .container {
+        margin-bottom: 20px;
+    }
+
+    .header-content {
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 170px;
+    }   
+
+    .brands-lits {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .contact-information {
+        justify-content:space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact-phone {
+        font-size: 24px;
+    }
+
+    html, body {
+        font-size: 20px;
+    }
+
+    h2 {
+        margin: 10px 0;
+    }
+
+    .button {
+        width: 300px;
+        background-color: rgb(85, 99, 139);
+        padding: 10px;
+        display: inline-block;
+        align-self: center;
+        /* margin: 10px; */
+    }
+
+    .button:hover {
+        background-color: rgb(23, 44, 100);
+        transition: 0.3s;
+    }
+
+    .development {
+        text-align: center;
+    }
+
+    .link-yelp-button:hover {
+        background-color: rgba(110, 112, 114, 0.39);
+        transition: 0.3s;
+    }
+}
