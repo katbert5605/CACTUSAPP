@@ -110,6 +110,12 @@ h2 {
     color: aliceblue;
 }
 
+.form-control._error {
+    box-shadow: 0 0 15px red;
+}
+
+
+
 @media (min-width: 1190px) {
     .app {
         width: 1200px;
@@ -122,6 +128,10 @@ h2 {
 
     .header-content {
         justify-content: space-around;
+    }
+
+    .main-section {
+        padding-left: 30px;
     }
 
     .logo {
@@ -151,7 +161,7 @@ h2 {
     }
 
     .button {
-        width: 300px;
+        width: 320px;
         background-color: rgb(85, 99, 139);
         padding: 10px;
         display: inline-block;

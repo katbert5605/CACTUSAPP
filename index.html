@@ -47,24 +47,29 @@
                 </section>
 
                 <section class="callback">
-                    <div class="input-group input-group-sm mb-3">
-                        <span class="input-group-text" id="name">Name</span>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    <div class="form">
+                        <form action="#" class="form_body" id="form">
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="name">Name</span>
+                                <input type="text" class="form-control _req" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+        
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="phone">Phone</span>
+                                <input type="tel" class="form-control _req" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+        
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="email">E-mail</span>
+                                <input type="email" class="form-control _req" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+        
+                            <div class="col-12">
+                                <button class="btn btn-success" type="submit">Submit form</button>
+                            </div>
+                        </form>
                     </div>
-
-                    <div class="input-group input-group-sm mb-3">
-                        <span class="input-group-text" id="phone">Phone</span>
-                        <input type="tel" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                    </div>
-
-                    <div class="input-group input-group-sm mb-3">
-                        <span class="input-group-text" id="email">E-mail</span>
-                        <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                    </div>
-
-                    <div class="col-12">
-                        <button class="btn btn-success" type="submit">Submit form</button>
-                    </div>
+                 
 
                     
                 </section>
@@ -139,5 +144,6 @@
         </footer>
 
     </div>
+    <script src="/js/form-script.js"></script>
 </body>
 </html>
